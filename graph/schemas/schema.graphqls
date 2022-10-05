@@ -1,0 +1,11 @@
+"Maps to Go time.Time struct"
+scalar Time
+
+type Subscription {
+  "Get current time each second"
+  currentTime: Time!
+}
+
+type Query {
+  hello: String!
+}
